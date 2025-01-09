@@ -9,7 +9,7 @@ public class aleatorios {
 		int elementos = Integer.parseInt(JOptionPane.showInputDialog("TECLEA UN NUMERO  + DE UNO=>"));
 		int num_aleat[] = new int[elementos];
 		for (int i = 0; i < num_aleat.length; i++) {
-			num_aleat[i] = (int) Math.random() * 50;
+			num_aleat[i] = (int) Math.random() * 5000;
 		}
 		for (int elem : num_aleat) {
 			System.out.println(elem);
